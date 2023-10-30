@@ -1,0 +1,22 @@
+.footer-container{
+    height: 40px;
+    width: 100%;
+    background: rgb(0, 128, 182);
+    background: linear-gradient(
+      0deg,
+      rgb(228, 232, 234) 0%,
+      rgb(228, 231, 233) 35%,
+      rgb(231, 237, 238) 100%
+    );
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+.text-center{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-content: flex-start; */
+    padding: 10px;
+}

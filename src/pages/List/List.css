@@ -1,0 +1,38 @@
+.list {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 20px;
+}
+.list a {
+  background-color: #fff;
+  padding: 16px;
+  border-radius: 6px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.05);
+  text-decoration: none;
+  color: inherit;
+}
+.list h4 {
+  font-size: 0.9em;
+  color: var(--heading-color);
+}
+.list p {
+  color: var(--text-color);
+  font-size: 0.9em;
+}
+.list .assigned-to {
+  margin-top: 20px;
+  padding-top: 10px;
+  border-top: 1px solid #eee;
+}
+.list ul {
+  margin: 10px 0;
+  display: flex;
+}
+.list li {
+  margin-right: 10px;
+}
+.list .avatar {
+  width: 30px;
+  height: 30px;
+}
